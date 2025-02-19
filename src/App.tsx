@@ -140,11 +140,11 @@ function App() {
         <div className="max-w-6xl mx-auto px-8 pt-6 pb-16">
           <div className="flex justify-center items-center gap-2 bg-white">
             <img 
-              src="/assets/logo.png" 
+              src="/assets/Logo.png" 
               alt="Finziai Logo" 
               className="w-12 h-12"
             />
-            <span className="text-3xl font-bold text-gray-900">Finziai</span>
+            <span className="text-3xl font-bold text-gray-900">FinziAi</span>
           </div>
           <div className="text-center mt-8 bg-white">
             <h1 className="text-4xl sm:text-5xl font-light text-gray-900">
@@ -166,9 +166,9 @@ function App() {
           </div>
           <div className="lg:w-1/2 relative mb-12 lg:mb-0">
             <img
-              src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&q=80&w=1000"
+              src="/assets/ebook_cover.png"
               alt="Ebook Preview"
-              className="w-full max-w-md mx-auto rounded-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
+              className="w-[355px] h-[533px] object-cover mx-auto rounded-lg shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]"
             />
           </div>
         </div>

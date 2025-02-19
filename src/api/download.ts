@@ -32,13 +32,13 @@ export default async function handler(req: Request) {
     }
 
     // Serve the PDF file
-    const response = await fetch('/assets/financial-freedom-ebook.pdf');
+    const response = await fetch('/assets/Finziai-Habbits-to-save-money-effortlessly.pdf');
     const pdfBlob = await response.blob();
 
     return new Response(pdfBlob, {
       headers: {
         'Content-Type': 'application/pdf',
-        'Content-Disposition': 'attachment; filename="financial-freedom-ebook.pdf"'
+        'Content-Disposition': 'attachment; filename="Finziai-Habbits-to-save-money-effortlessly.pdf"'
       }
     });
   } catch (error) {
