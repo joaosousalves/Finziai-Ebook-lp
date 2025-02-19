@@ -32,7 +32,7 @@ export default async function handler(req: Request) {
     }
 
     // Serve the PDF file
-    const response = await fetch('/assets/Finziai-Habbits-to-save-money-effortlessly.pdf');
+    const response = await fetch('.public/assets/Finziai-Habbits-to-save-money-effortlessly.pdf');
     const pdfBlob = await response.blob();
 
     return new Response(pdfBlob, {
