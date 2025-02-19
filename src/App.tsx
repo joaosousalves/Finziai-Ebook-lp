@@ -140,7 +140,7 @@ function App() {
         <div className="max-w-6xl mx-auto px-8 pt-6 pb-16">
           <div className="flex justify-center items-center gap-2 bg-white">
             <img 
-              src="/assets/Logo.png" 
+              src="/assets/finziai-logo.png" 
               alt="Finziai Logo" 
               className="w-12 h-12"
             />
